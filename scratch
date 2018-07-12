@@ -4,5 +4,5 @@ reversed_words = []
 greeting_array.collect do |word| 
   reversed_words << word.reverse
   end
-  greeting_with_reversed_words = reversed_words.join(" ")
+  reversed_words.join(" ")
 end
